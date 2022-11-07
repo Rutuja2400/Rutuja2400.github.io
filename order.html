@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <style>
+         nav { 
+            position: sticky;
+            display: flex;  
+            justify-content:space-around; 
+            top:0px;
+            left:0px;
+           align-items:center;
+            } 
+
+         nav a {
+             text-decoration: none;
+             color: black;  
+             font-size:20px;
+             font-family:Verdana, Geneva, Tahoma, sans-serif;        
+        } 
+
+        a:hover {
+         background-color: rgb(248, 160, 226);
+        }
+
+        h1{
+            color:rgb(237, 120, 120);
+            font-size: 40px;
+            /* display: inline; */
+        }
+       
+        span{
+            color: rgb(127, 54, 44);
+            font-style:italic;
+        }
+
+        body{
+            margin: 0;
+            top:0;
+            padding:0px;
+            width:100%;
+        }
+
+          div.o1{
+    width:100px;
+            height:50px;
+            position: relative;
+            top:60px;
+            float:left;
+             left: 900px;
+             padding: auto;
+        }
+
+  div.order h1{
+    text-align: center; 
+            color:chocolate;
+            position: relative;
+            font-size:  60px;
+            top:30px;
+            left:0px;
+           
+  }
+
+
+  form{ 
+            padding:  20px;
+            width: 50%;
+            margin-left: 20%;
+            margin-top: 5%;
+            font-family: serif;
+            font-size: 20px;
+            
+  }
+    </style>
+</head>
+<body>
+    <nav> 
+        <h1>Friend <span>Cafe</span></h1>
+   
+ <a href="index.html">Home</a>
+ <a href="About Us.html">About Us</a>
+ <a href="menu.html">Menu</a>
+ <a href="order.html">Order</a>
+ <a href="contact us.html">Contact us</a>
+ 
+ </nav> 
+    <div class="order">
+
+        <h1>-: Order:-</h1>
+    </div>
+    
+
+    <div class="o1">
+        <img src="order1.png"alt="food" >
+        </div>
+
+        <form action="" autocomplete="off">
+
+            <label for="a1"> Name:   </label>
+            <input type="text" id="a1" required placeholder="Riya shah"><br><br>
+            
+            <label for="a2"> Email-id:    </label>
+            <input type="email" id="a2" required placeholder="abc@test.com"><br> <br>
+
+            <label for="a3"> Mobile:   </label>
+            <input type="number" id="a3" required placeholder="123-456-7890"><br> <br>
+    
+            <label for="a4"> Order Item:   </label>
+            <input type="text" id="a4" required><br> <br>
+
+            <label for="a4"> Quantity:   </label>
+            <input type="number" id="a5" required><br> <br>
+    
+            <button type="submit">Submit</button> <br>
+            <button type="reset">Reset</button>
+    
+     </form>   
+
+</body>
+</html>

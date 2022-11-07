@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Cafe</title>
+    <style>
+       
+         nav { 
+            position: sticky;
+            display: flex;  
+            justify-content:space-around; 
+            top:0px;
+            left:0px;
+            align-items:center;
+             } 
+
+         nav a {
+             text-decoration: none;
+             color: black;  
+             font-size:20px;
+             font-family:Verdana, Geneva, Tahoma, sans-serif;
+            } 
+    
+        Body{
+            margin: 0;
+            top:0;
+            padding:0px;
+            width: 100%;
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+
+        h1{
+            color:rgb(237, 120, 120);
+            font-size: 50px;
+            display: inline;
+        }
+       
+        span{
+            color: rgb(127, 54, 44);
+            font-style:italic;
+        }
+        
+        a:hover {
+         background-color: rgb(248, 226, 160);
+}
+/* home */ 
+        div.home{
+            display: flex;
+            position:relative;
+        
+        } 
+        div.a1 h1{
+            text-align: left; 
+            color:rgb(184, 251, 125);
+            position: relative;
+            font-size: 60px;
+            top: 120px;;
+            left:150px;
+
+         }
+
+        div.b1{
+          
+           position:relative;
+           float: right;
+           top: 20px;
+           left:350px;
+           bottom:350px;  
+           padding-right: 10%;
+          
+        }
+        #b1{
+            color:lightsalmon;
+
+        }
+        #b2{
+            color:rgb(104, 190, 240);
+        }
+        #b3{
+            color:mediumvioletred
+        }
+
+        /* aboutus */
+        div.about{
+            display: flex;
+            position:relative;
+        
+        }
+
+        div.r1 h2{
+            text-align: right; 
+            color:rgb(55, 5, 36);
+            position: relative;
+           font-size: 50px;
+            top:250px;
+            right:300px;
+        }
+        div.r1 h1{
+           text-align: center; 
+            color:chocolate;
+            position: relative;
+            font-size:60px;
+            top:130px;
+            left:600px; 
+        }
+
+        div.r1 p{
+            text-align:right; 
+            color:rgb(249, 54, 54);
+            position: relative;
+            font-size: 30px;
+            font-family:cursive;
+            top:250px;
+            right:250px;
+           
+        }
+        div.d1{
+            width:50px;
+            height:50px;
+            position: relative;
+            top:40px;
+            float:left;
+            right: 150px;
+            left: 80px;
+        }
+/* menu */
+        div.m1 h1{
+            text-align: center; 
+            color:chocolate;
+            position: relative;
+            font-size: 60px;
+            top:410px;
+            left:600px;
+        }
+
+        table ,tr,td,th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:12px;
+            text-align: center;
+            margin-top: 470px;
+            margin-left: 0px;
+            margin-right:30px;
+         }
+
+th{
+    color: rgb(14, 81, 2);
+    font-style: bold;
+    font-size: 30px;
+            
+    
+}
+td{
+    color:brown;
+    font-family: serif;
+    font-size: 25px;
+}
+td:hover{ 
+    background-color:plum;
+    color: white;
+}
+     div.o1{
+          width:100px;
+            height:50px;
+            position: relative;
+            top:60px;
+             left: 900px;
+             padding: auto;
+             margin-bottom: 10px;
+        }
+
+  div.order h1{
+    text-align: center; 
+            color:chocolate;
+            position: relative;
+            font-size:  60px;
+            top:30px;
+            left:600px;
+           
+  }
+
+
+  form{ 
+            padding:  20px;
+            width: 50%;
+            margin-left: 40%;
+            margin-top: 5%;
+            font-family: serif;
+            font-size: 20px;
+            
+  }
+  footer{
+    font-size:large;
+    color: white;
+    background-color:darkslateblue; 
+    padding: 20px 50px;
+    text-align: center;
+}
+.media{
+    padding: 1%;
+} 
+
+
+
+/* photos */
+div.photo h1{
+    text-align: center; 
+            color:chocolate;
+            position: relative;
+            font-size:  60px;
+            top:30px;
+            left:600px;
+  }
+
+.table1{
+    margin-top:5%;
+
+}
+
+td button{
+    width:30%;
+    padding: 10px;
+    font-family: serif;
+
+}
+ td img{
+    width: 80%;
+    height: 100%;
+    padding: 50px;
+    margin: 10px 10px;
+   
+}
+ td:hover{
+    background-color: black;
+} 
+ </style>
+</head>
+
+<body>
+<nav> 
+      <h1>Friend <span>Cafe</span></h1>
+  
+<a href=>Home</a>
+<a href="About Us.html">About Us</a>
+<a href="menu.html">Menu</a>
+<a href=>Photo</a>
+<a href="contact us.html">Contact us</a>
+
+</nav> 
+
+<!-- home -->
+<div class="home">
+
+    <div class="a1">
+    <h1>Good <span id="b1">Food,</span>
+        <br>Good <span id="b2">People,</span>    
+        <br>Good <span id="b3">Time..</span></h1>
+</div>
+
+<div class="b1">
+   <img src="home1.jpg" alt="food" >
+</div>
+
+</div>
+<!-- about us -->
+
+<div class="About">
+
+    <div class="r1">
+        <h1> -: About us :-</h1>
+        <h2>Best Food for your Taste!!</h2>
+        <p> We provide you the best,
+            fresh & tasty food . </p>  
+    </div>
+
+   <div class="d1">
+   <img src="a.jpg"alt="food" >
+</div>  
+</div>
+   <!-- menu -->
+<div class="Menu">
+
+    <div class="m1">
+        <h1>-: Menu :-</h1>
+    </div>
+
+    <table style="width: 100%;" >
+    <tr>
+        <th>Food Item</th>
+        <th >Quantity</th>
+        <th >Price</th></tr>
+        <tr>
+            <td>Steam Momos</td>
+            <td>6 piece</td>
+            <td>80rs</td>
+        </tr>
+        <tr>
+            <td> Fried Momos</td>
+            <td>6 piece</td>
+            <td>80rs</td>
+        </tr>
+
+        <tr>
+            <td>Bombay Sandwich</td>
+            <td>4 piece</td>
+            <td>80rs</td>
+        </tr>
+        <tr>
+            <td>Cheese Sandwich</td>
+            <td>4 piece</td>
+            <td>100rs</td>
+        </tr>
+
+
+        <tr>
+            <td>Pizza</td>
+            <td>1</td>
+            <td>200rs</td>
+        </tr>
+        <tr>
+            <td>Hot Coffee</td>
+            <td>1</td>
+            <td>30rs</td>
+        </tr>
+    <tr>
+            <td>Cold Coffee</td>
+            <td>1</td>
+            <td>50rs</td>
+        </tr>
+
+        <tr>
+            <td>Spring roll</td>
+            <td>1</td>
+            <td>60rs</td>
+        </tr>
+        <tr>
+            <td>Fries</td>
+            <td>1</td>
+            <td>70rs</td>
+        </tr>
+        <tr>
+            <td>Maggi</td>
+            <td>1 </td>
+            <td>30rs</td>
+        </tr>
+    </table> 
+    </div>
+</div>
+</div>
+<!-- photo -->
+<table class="table1">
+
+    <div class="photo">
+        <h1>-: Photos :-</h1>
+    </div>
+
+
+    <tr>
+        <td>Momos<img src="menu1.jpg.jpg" alt=""><a href="order.html"><button >order now</button></a></td>
+        <td>Sandwich<img src="menu2.jpg.jpg" alt=""><a href="order.html"><button >order now</button></a></td>
+        <td>Pizza<img src="menu3.jpg.jpg" alt=""><a href="order.html"><button>order now</button></a></td>
+    </tr>
+<tr>
+        <td>Coffee<img src="menu4.jpg.jpg" alt=""><a href="order.html"><button>order now</button></a></td>
+        <td>Spring Roll<img src="menu5.jpg.jpg" alt=""><a href="order.html"><button>order now</button></a></td>
+        <td>Burger<img src="menu6.jpg.jpg" alt=""> <a href="order.html"><button>order now</button></a></td>
+    </tr>
+</table>
+</div> 
+<!-- order-->
+    <div class="order">
+
+        <h1>-: Contact Us:-</h1>
+    </div>
+
+        <form action="" autocomplete="off">
+
+            <label for="a1"> Name:   </label>
+            <input type="text" id="a1" required placeholder="Riya shah"><br><br>
+            
+            <label for="a2"> Email-id:    </label>
+            <input type="email" id="a2" required placeholder="abc@test.com"><br> <br>
+
+            <label for="a3"> Mobile:   </label>
+            <input type="tel" id="a3" required placeholder="123-456-7890"><br> <br>
+    
+            <button ><a href="submit.html">Submit</a></button> <br>
+            <button type="reset">Reset</button>
+    
+     </form>
+       
+
+   <footer id="Contact">
+
+    <p>Friends Cafe<br>
+    <a href="mailto:friendscafe@gmail.com">friendscafe@gmail.com</a></p>
+   <a class="media" href="https://www.instagram.com/ritzz2412/">
+    <img alt="Instagram" style="width: 39px; height: 39px; object-fit: cover;" 
+    src="https://static.wixstatic.com/media/9f9c321c774844b793180620472aa4f1.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9f9c321c774844b793180620472aa4f1.png">
+    </a>
+    <a class="media"href="https://www.Facebook.com/ritzz2412/"><img alt="Facebook" 
+        src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e316f544f9094143b9eac01f1f19e697.png" 
+    style="width: 39px; height: 39px; object-fit: cover;"></a>
+    <a class="media" href="https://www.whatsapp.com/8390360909/"><img alt="Whatsapp"
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png" 
+        style="width: 39px; height: 39px; object-fit: cover;"></a>
+    </footer>
+
+</body>
+</html>
